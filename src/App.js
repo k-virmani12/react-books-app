@@ -7,11 +7,11 @@ import ThemeToggle from "./theme-toggler.jsx";
 function App() {
 	return (
 		<div className="App">
-			<ThemeContextProvider>
-				<Nav />
-				<BookList />
-				<ThemeToggle />	
-			</ThemeContextProvider>
+				<ThemeContextProvider>
+					<Nav />
+					<BookList />
+					<ThemeToggle />	
+				</ThemeContextProvider>
 		</div>
 		);
 }
